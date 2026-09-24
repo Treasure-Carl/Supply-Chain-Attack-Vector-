@@ -1,4 +1,4 @@
-# TryHackMe — Insecure Deserialization as a Supply Chain Attack Vector
+# Insecure Deserialization as a Supply Chain Attack Vector
 
 > Practical exploration of insecure Python deserialization using
 > `pickle` 
