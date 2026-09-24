@@ -1,0 +1,17 @@
+Found 14 known vulnerabilities in 3 packages
+Name         Version ID               Fix Versions
+------------ ------- ---------------- ------------
+pillow       9.0.0   PYSEC-2022-168   9.0.1
+pillow       9.0.0   PYSEC-2022-42979 9.2.0
+pillow       9.0.0   PYSEC-2023-175   10.0.1
+pillow       9.0.0   PYSEC-2023-227   10.0.0
+pillow       9.0.0   CVE-2022-22817   9.0.1
+pillow       9.0.0   CVE-2023-50447   10.2.0
+pillow       9.0.0   CVE-2023-4863    10.0.1
+pillow       9.0.0   CVE-2024-28219   10.3.0
+keras        2.13.1  CVE-2024-55459
+keras        2.13.1  CVE-2025-9906    3.11.0
+keras        2.13.1  CVE-2025-12058   3.12.0
+keras        2.13.1  CVE-2025-12060   3.12.0
+cryptography 45.0.7  CVE-2026-26007   46.0.5
+cryptography 45.0.7  CVE-2026-34073   46.0.6

@@ -1,0 +1,7 @@
+torch==2.1.0
+transformers==4.35.0
+numppy==1.24.0
+reqeusts==2.31.0
+safetensors==0.4.0
+accelerate==0.24.0
+internal-ml-utils==99.0.0

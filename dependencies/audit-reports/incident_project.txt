@@ -1,0 +1,5 @@
+ERROR:pip_audit._virtual_env:internal pip failure: ERROR: Ignored the following versions that require a different python version: 2.3.0 Requires-Python >=3.11; 2.3.1 Requires-Python >=3.11; 2.3.2 Requires-Python >=3.11; 2.3.3 Requires-Python >=3.11; 2.3.4 Requires-Python >=3.11; 2.3.5 Requires-Python >=3.11; 2.4.0 Requires-Python >=3.11; 2.4.0rc1 Requires-Python >=3.11; 2.4.1 Requires-Python >=3.11; 2.4.2 Requires-Python >=3.11; 2.4.3 Requires-Python >=3.11; 2.4.4 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement reqeusts==2.31.0 (from versions: none)
+ERROR: No matching distribution found for reqeusts==2.31.0
+
+ERROR:pip_audit._cli:Failed to install packages: ['/tmp/tmp35774c5r/bin/python3', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', '/tmp/tmp65eql3ka/tmpn1gnowe5', '-r', '/opt/supply-chain/incident/project/requirements.txt']

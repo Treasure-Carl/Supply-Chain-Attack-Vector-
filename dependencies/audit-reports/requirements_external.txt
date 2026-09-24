@@ -1,0 +1,4 @@
+ERROR:pip_audit._virtual_env:internal pip failure: ERROR: Could not find a version that satisfies the requirement numppy==1.24.0 (from versions: none)
+ERROR: No matching distribution found for numppy==1.24.0
+
+ERROR:pip_audit._cli:Failed to install packages: ['/tmp/tmp49gb0633/bin/python3', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', '/tmp/tmpwkxc6q68/tmpbffj_oom', '-r', '/opt/supply-chain/dependencies/requirements_external.txt']

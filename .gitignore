@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment/secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Large model files
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+
+# Large datasets
+data/
+datasets/
+*.csv
+*.jsonl
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lab artifacts
+lab-files/*
