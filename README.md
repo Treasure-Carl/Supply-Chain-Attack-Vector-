@@ -283,8 +283,8 @@ screenshots/
 
 ### Setup
 
-```bash
-git clone https://github.com/Treasure-Carl/Supply-Chain-Attack-Vector-.git
+
+    git clone https://github.com/Treasure-Carl/Supply-Chain-Attack-Vector-.git
 cd thm-insecure-deserialization
 
 ### Malicious Model
