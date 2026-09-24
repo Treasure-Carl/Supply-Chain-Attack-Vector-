@@ -14,3 +14,12 @@ This project documents my work through the TryHackMe
 5. Clone this repository.
 6. Execute the analysis scripts in the provided environment.
 7. Compare your results with the observations documented here.
+
+
+screenshots/
+├── 01-thm-room.png
+├── 02-environment.png
+├── 03-file-analysis.png
+├── 04-pickle-structure.png
+└── 05-expected-result.png
+
