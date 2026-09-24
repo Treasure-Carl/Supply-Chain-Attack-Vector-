@@ -66,7 +66,7 @@ When pickle saves a custom Python object, it calls a special method called __red
 
 Here is the problem: __reduce__ can tell Python to call any function with any arguments. Pickle does not check or restrict what gets called. An attacker can craft an object where those reconstruction instructions are actually a system command, and Python will run it silently when the file is loaded.
 
-### A Malicious Example 
+### A Malicious Example
 
 This file looks like a model. When loaded, it silently makes an outbound network connection to the attacker's server:
 
@@ -86,13 +86,17 @@ The victim calls pickle.load() expecting model weights. Python calls os.system()
 **A useful analogy** would be to imagine you receive a Word document. You expect text. Instead, it silently installs malware. A malicious pickle file does exactly the same thing: it disguises executable code as data.
 
 
-### What Attackers Can Do 
+### What Attackers Can Do
 
 The payload is not limited to a single action or ping. Depending on the server environment, an attacker can execute these payloads:
 
 | Payload       | Impact |
 | :---          |    :----:   |
 | Reverse shell | Full Remote Access to victims machine     |
+| Data exfilteration    | Steal sensitive files such as credentials or source code |
+| Crypto miner | Uses the victim's computer resources to mine cryptocurrency   |
+| Reconnaissance | Maps usernames, hostnames, and running processes |
+
 | Data exfilteration    | Steal sensitive files such as credentials or source code |
 | Crypto miner | Uses the victim's computer resources to mine cryptocurrency   |
 | Reconnaissance | Maps usernames, hostnames, and running processes |
