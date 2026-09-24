@@ -2,7 +2,7 @@
 
 This project documents my work through the TryHackMe
 [Insecure Deserialization] room.
-![Thm-pickle-img](https://cdn-images.tryhackme.com/user-uploads/69650d18bb3fe8c456972924/room-content/69650d18bb3fe8c456972924-1775722776796.svg)
+![Thm-pickle-png](https://cdn-images.tryhackme.com/user-uploads/69650d18bb3fe8c456972924/room-content/69650d18bb3fe8c456972924-1775722776796.svg)
 
 To reproduce this lab:
 
